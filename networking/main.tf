@@ -11,7 +11,7 @@ resource "aws_vpc" "vpc" {
   enable_dns_support   = true
 
   tags = {
-    Name = "vpc-${random_integer.random.id}"
+    Name = "chaffari-${random_integer.random.id}"
   }
 }
 
